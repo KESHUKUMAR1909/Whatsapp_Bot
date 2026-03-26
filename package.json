@@ -14,11 +14,15 @@
   "type": "commonjs",
   "dependencies": {
     "body-parser": "^2.2.2",
+    "clipboardy": "^5.3.1",
+    "compromise": "^14.15.0",
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "nodemon": "^3.1.14",
-    "twilio": "^5.13.0"
+    "synonyms": "^1.0.1",
+    "twilio": "^5.13.0",
+    "wink-nlp-utils": "^2.1.0"
   },
   "devDependencies": {
     "axios": "^1.13.6"

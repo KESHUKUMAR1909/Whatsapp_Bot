@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const testWhatsApp = async () => {
     try {
-        const response = await axios.post('http://localhost:3000/send-whatsapp', {
+        const response = await axios.post('https://whatsapp-bot-2fyc.onrender.com/send-whatsapp', {
             to: 'whatsapp:+919340179767',
             contentSid: 'HXb5b62575e6e4ff6129ad7c8efe1f983e',
             contentVariables: {
